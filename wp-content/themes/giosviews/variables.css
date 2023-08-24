@@ -1,0 +1,11 @@
+/* Variables */
+@font-face {
+  font-family: 'Mirtha Display';
+  src: url(fonts/nois-mirtha-display.woff) format("woff");
+  display: swap;
+}
+@font-face {
+  font-family: 'Sebastian Bobby';
+  src: url(fonts/sebastianbobby.woff) format("woff");
+  display: swap;
+}

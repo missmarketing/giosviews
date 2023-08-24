@@ -1,0 +1,126 @@
+/* Variables */
+@font-face {
+  font-family: 'Mirtha Display';
+  src: url(fonts/nois-mirtha-display.woff) format("woff");
+  display: swap;
+}
+@font-face {
+  font-family: 'Sebastian Bobby';
+  src: url(fonts/sebastianbobby.woff) format("woff");
+  display: swap;
+}
+/* Generales */
+/* line 4, sass/base.scss */
+body {
+  background-color: #EFECE0;
+}
+
+/* line 7, sass/base.scss */
+body.page-template-default,
+body.page-template,
+body.single {
+  margin: 0 !important;
+}
+
+/* line 13, sass/base.scss */
+body.single #container {
+  width: 80%;
+  margin: auto;
+  padding: 5rem 0;
+}
+/* line 17, sass/base.scss */
+body.single #container h1 a {
+  color: #865042;
+}
+
+/* line 23, sass/base.scss */
+body,
+html {
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  line-height: 28px;
+  color: #1D252C;
+  font-style: normal;
+  overflow-x: hidden;
+}
+/* line 31, sass/base.scss */
+body #container,
+html #container {
+  position: relative;
+}
+
+/* line 37, sass/base.scss */
+h2,
+h4,
+h5,
+h6 {
+  font-family: "Montserrat", sans-serif;
+}
+
+/* line 44, sass/base.scss */
+h1 {
+  font-family: "Mirtha Display";
+  font-weight: 400;
+  font-size: 50px;
+  line-height: 3rem;
+  color: #865042;
+}
+
+/* line 52, sass/base.scss */
+h3 {
+  font-family: "Mirtha Display";
+  font-weight: 400;
+  font-size: 45px;
+  line-height: 3rem;
+  color: #865042;
+}
+@media all and (max-width: 575px) {
+  /* line 52, sass/base.scss */
+  h3 {
+    font-size: 35px;
+    line-height: 1.2;
+  }
+}
+
+/* line 64, sass/base.scss */
+h4 {
+  color: #865042;
+  text-transform: uppercase;
+  line-height: 1.8;
+  letter-spacing: 0.1em;
+  font-size: 14px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+/* line 75, sass/base.scss */
+a {
+  text-decoration: none;
+}
+
+/* line 79, sass/base.scss */
+p {
+  line-height: 1.8;
+  font-size: 14px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  color: #865042;
+}
+@media all and (max-width: 575px) {
+  /* line 79, sass/base.scss */
+  p {
+    font-size: 12px;
+  }
+}
+/* line 89, sass/base.scss */
+p a {
+  text-decoration: none;
+  color: #865042;
+}
+@media all and (max-width: 575px) {
+  /* line 89, sass/base.scss */
+  p a {
+    font-size: 12px;
+  }
+}

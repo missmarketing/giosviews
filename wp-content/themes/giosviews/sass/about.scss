@@ -1,0 +1,226 @@
+@import "variables";
+
+/* Home */
+body.page-template-page-about {
+    .about-gios {
+        gap: 0;
+
+        @media all and (max-width:781px) {
+            flex-direction: column-reverse;
+        }
+        @media all and (min-width:1200px) {
+            width: 80%;
+            margin: auto;
+            padding-bottom: 2rem;
+        }
+        @media all and (min-width:1920px) {
+            width: 50%;
+            padding: 5rem 0;
+            margin: auto;
+        }
+
+        .text {
+            position: relative;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-end;
+            padding-left: 7rem;
+            text-align: center;
+            align-items: center;
+            max-width: 40%;
+            @media all and (max-width:425px){
+                padding: 7rem 2rem 2rem !important;
+            }
+            @media all and (max-width:781px){
+                padding: 1rem;
+                max-width: 100%;
+            }
+
+            h3 {
+                margin: 0;
+            }
+
+            p {
+                font-family: $fontTitles3;
+                color: $brown;
+                font-size: 54px;
+                font-weight: 400;
+                line-height: 1.1;
+                margin: 0;
+                @media all and (max-width:425px){
+                    font-size: 40px;
+                }
+            }
+
+            .image {
+                position: absolute;
+                top: -26%;
+                left: -5rem;
+                scale: 0.6;
+                width: 100%;
+
+                @media all and (max-width:425px) {
+                    z-index: 0 !important;
+                    top: -4rem !important;
+                    left: -8rem !important;
+                }
+
+                @media all and (max-width:781px) {
+                    scale: 0.6;
+                    width: max-content;
+                    z-index: 1;
+                    top: -33rem;
+                    left: 13rem;
+                }
+
+                @media all and (min-width:1920px) {
+                    top: -41%;
+                }
+                @media all and (min-width:2560px){
+                    top: -45%;
+                }
+            
+
+                img {
+                    box-sizing: border-box;
+                    height: 100%;
+                    width: 100%;
+                    object-position: bottom;
+                    max-width: 100%;
+                    object-fit: cover;
+                    filter: brightness(0.7);
+                    vertical-align: bottom;
+                }
+            }
+        }
+
+        .gallery {
+            display: flex;
+
+            figure {
+                border: 1px solid $brown;
+                display: flex;
+                padding: 0.3rem;
+                position: relative;
+                width: 80%;
+                margin: auto;
+
+                @media all and (max-width:425px) {
+                    width: 80%;
+                    margin: auto;
+                }
+
+                @media all and (min-width:426px) and (max-width:781px) {
+                    width: 70%;
+                    margin: 2rem;
+                    text-align: left;
+                }
+
+                img {
+                    width: 576px;
+                    height: 391px;
+                    object-fit: cover;
+                    object-position: 0% 80%;
+
+                    @media all and (max-width:425px) {
+                        height: 159px !important;
+                    }
+
+                    @media all and (max-width:781px) {
+                        height: 347px;
+                    }
+                }
+
+                &:after {
+                    content: '';
+                    position: absolute;
+                    background: url(imgs/tape_6.png) no-repeat center;
+                    background-size: contain;
+                    width: 168px;
+                    height: 145px;
+                    transform: scale(0.8, 0.8) rotate(-28deg);
+                    bottom: -4.3rem;
+                    right: -3.3rem;
+
+                    @media all and (max-width:425px) {
+                        scale: 0.7;
+                    }
+                }
+            }
+        }
+    }
+
+    .bio {
+        background: $lightbackground;
+        padding: 4rem 5rem 0;
+        @media all and (max-width:425px){
+            padding: 2rem;
+        }
+        @media all and (min-width:782px) and (max-width:900px){
+            padding: 4rem 3rem 0
+        }
+        @media all and (min-width:1920px) and (max-width:2560px) {
+            padding: 2% 20%;
+        }
+
+        @media all and (min-width:2560px) {
+            padding: 2% 28%;
+        }
+
+        .text {
+            position: relative;
+            flex-basis: 80%;
+            margin: 0 auto;
+
+            h3 {
+                margin: 1rem 0;
+                text-align: center;
+            }
+
+            p {
+                text-align: justify;
+            }
+
+            .text-columns {}
+        }
+
+        .frame-2 {
+            @media all and (max-width:781px){
+                top: -10rem;
+                position: relative;
+                left: -5rem;
+                height: 10rem;
+            }
+            figure {
+                position: relative;
+                width: 328px;
+                height: 539px;
+                @media all and (max-width:781px){
+                    scale: 0.5;
+                }
+                @media all and (min-width:782px) and (max-width:1200px){
+                    scale: 0.7;
+                    left: -20%;
+                }
+
+                img {
+                    object-fit: cover;
+                    width: 90%;
+                    height: 67%;
+                    border-radius: 50%;
+                }
+
+                &:after {
+                    content: '';
+                    position: absolute;
+                    background: url(imgs/frame-photo.png) no-repeat center;
+                    background-size: contain;
+                    width: 328px;
+                    top: -5.5rem;
+                    left: -17px;
+                    height: 539px;
+                }
+            }
+        }
+    }
+}

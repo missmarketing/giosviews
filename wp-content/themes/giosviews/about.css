@@ -1,0 +1,285 @@
+/* Variables */
+@font-face {
+  font-family: 'Mirtha Display';
+  src: url(fonts/nois-mirtha-display.woff) format("woff");
+  display: swap;
+}
+@font-face {
+  font-family: 'Sebastian Bobby';
+  src: url(fonts/sebastianbobby.woff) format("woff");
+  display: swap;
+}
+/* Home */
+/* line 5, sass/about.scss */
+body.page-template-page-about .about-gios {
+  gap: 0;
+}
+@media all and (max-width: 781px) {
+  /* line 5, sass/about.scss */
+  body.page-template-page-about .about-gios {
+    flex-direction: column-reverse;
+  }
+}
+@media all and (min-width: 1200px) {
+  /* line 5, sass/about.scss */
+  body.page-template-page-about .about-gios {
+    width: 80%;
+    margin: auto;
+    padding-bottom: 2rem;
+  }
+}
+@media all and (min-width: 1920px) {
+  /* line 5, sass/about.scss */
+  body.page-template-page-about .about-gios {
+    width: 50%;
+    padding: 5rem 0;
+    margin: auto;
+  }
+}
+/* line 22, sass/about.scss */
+body.page-template-page-about .about-gios .text {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding-left: 7rem;
+  text-align: center;
+  align-items: center;
+  max-width: 40%;
+}
+@media all and (max-width: 425px) {
+  /* line 22, sass/about.scss */
+  body.page-template-page-about .about-gios .text {
+    padding: 7rem 2rem 2rem !important;
+  }
+}
+@media all and (max-width: 781px) {
+  /* line 22, sass/about.scss */
+  body.page-template-page-about .about-gios .text {
+    padding: 1rem;
+    max-width: 100%;
+  }
+}
+/* line 39, sass/about.scss */
+body.page-template-page-about .about-gios .text h3 {
+  margin: 0;
+}
+/* line 43, sass/about.scss */
+body.page-template-page-about .about-gios .text p {
+  font-family: "Sebastian Bobby";
+  color: #865042;
+  font-size: 54px;
+  font-weight: 400;
+  line-height: 1.1;
+  margin: 0;
+}
+@media all and (max-width: 425px) {
+  /* line 43, sass/about.scss */
+  body.page-template-page-about .about-gios .text p {
+    font-size: 40px;
+  }
+}
+/* line 55, sass/about.scss */
+body.page-template-page-about .about-gios .text .image {
+  position: absolute;
+  top: -26%;
+  left: -5rem;
+  scale: 0.6;
+  width: 100%;
+}
+@media all and (max-width: 425px) {
+  /* line 55, sass/about.scss */
+  body.page-template-page-about .about-gios .text .image {
+    z-index: 0 !important;
+    top: -4rem !important;
+    left: -8rem !important;
+  }
+}
+@media all and (max-width: 781px) {
+  /* line 55, sass/about.scss */
+  body.page-template-page-about .about-gios .text .image {
+    scale: 0.6;
+    width: max-content;
+    z-index: 1;
+    top: -33rem;
+    left: 13rem;
+  }
+}
+@media all and (min-width: 1920px) {
+  /* line 55, sass/about.scss */
+  body.page-template-page-about .about-gios .text .image {
+    top: -41%;
+  }
+}
+@media all and (min-width: 2560px) {
+  /* line 55, sass/about.scss */
+  body.page-template-page-about .about-gios .text .image {
+    top: -45%;
+  }
+}
+/* line 84, sass/about.scss */
+body.page-template-page-about .about-gios .text .image img {
+  box-sizing: border-box;
+  height: 100%;
+  width: 100%;
+  object-position: bottom;
+  max-width: 100%;
+  object-fit: cover;
+  filter: brightness(0.7);
+  vertical-align: bottom;
+}
+/* line 97, sass/about.scss */
+body.page-template-page-about .about-gios .gallery {
+  display: flex;
+}
+/* line 100, sass/about.scss */
+body.page-template-page-about .about-gios .gallery figure {
+  border: 1px solid #865042;
+  display: flex;
+  padding: 0.3rem;
+  position: relative;
+  width: 80%;
+  margin: auto;
+}
+@media all and (max-width: 425px) {
+  /* line 100, sass/about.scss */
+  body.page-template-page-about .about-gios .gallery figure {
+    width: 80%;
+    margin: auto;
+  }
+}
+@media all and (min-width: 426px) and (max-width: 781px) {
+  /* line 100, sass/about.scss */
+  body.page-template-page-about .about-gios .gallery figure {
+    width: 70%;
+    margin: 2rem;
+    text-align: left;
+  }
+}
+/* line 119, sass/about.scss */
+body.page-template-page-about .about-gios .gallery figure img {
+  width: 576px;
+  height: 391px;
+  object-fit: cover;
+  object-position: 0% 80%;
+}
+@media all and (max-width: 425px) {
+  /* line 119, sass/about.scss */
+  body.page-template-page-about .about-gios .gallery figure img {
+    height: 159px !important;
+  }
+}
+@media all and (max-width: 781px) {
+  /* line 119, sass/about.scss */
+  body.page-template-page-about .about-gios .gallery figure img {
+    height: 347px;
+  }
+}
+/* line 134, sass/about.scss */
+body.page-template-page-about .about-gios .gallery figure:after {
+  content: '';
+  position: absolute;
+  background: url(imgs/tape_6.png) no-repeat center;
+  background-size: contain;
+  width: 168px;
+  height: 145px;
+  transform: scale(0.8, 0.8) rotate(-28deg);
+  bottom: -4.3rem;
+  right: -3.3rem;
+}
+@media all and (max-width: 425px) {
+  /* line 134, sass/about.scss */
+  body.page-template-page-about .about-gios .gallery figure:after {
+    scale: 0.7;
+  }
+}
+/* line 153, sass/about.scss */
+body.page-template-page-about .bio {
+  background: #f3f1e9;
+  padding: 4rem 5rem 0;
+}
+@media all and (max-width: 425px) {
+  /* line 153, sass/about.scss */
+  body.page-template-page-about .bio {
+    padding: 2rem;
+  }
+}
+@media all and (min-width: 782px) and (max-width: 900px) {
+  /* line 153, sass/about.scss */
+  body.page-template-page-about .bio {
+    padding: 4rem 3rem 0;
+  }
+}
+@media all and (min-width: 1920px) and (max-width: 2560px) {
+  /* line 153, sass/about.scss */
+  body.page-template-page-about .bio {
+    padding: 2% 20%;
+  }
+}
+@media all and (min-width: 2560px) {
+  /* line 153, sass/about.scss */
+  body.page-template-page-about .bio {
+    padding: 2% 28%;
+  }
+}
+/* line 170, sass/about.scss */
+body.page-template-page-about .bio .text {
+  position: relative;
+  flex-basis: 80%;
+  margin: 0 auto;
+}
+/* line 175, sass/about.scss */
+body.page-template-page-about .bio .text h3 {
+  margin: 1rem 0;
+  text-align: center;
+}
+/* line 180, sass/about.scss */
+body.page-template-page-about .bio .text p {
+  text-align: justify;
+}
+@media all and (max-width: 781px) {
+  /* line 187, sass/about.scss */
+  body.page-template-page-about .bio .frame-2 {
+    top: -10rem;
+    position: relative;
+    left: -5rem;
+    height: 10rem;
+  }
+}
+/* line 194, sass/about.scss */
+body.page-template-page-about .bio .frame-2 figure {
+  position: relative;
+  width: 328px;
+  height: 539px;
+}
+@media all and (max-width: 781px) {
+  /* line 194, sass/about.scss */
+  body.page-template-page-about .bio .frame-2 figure {
+    scale: 0.5;
+  }
+}
+@media all and (min-width: 782px) and (max-width: 1200px) {
+  /* line 194, sass/about.scss */
+  body.page-template-page-about .bio .frame-2 figure {
+    scale: 0.7;
+    left: -20%;
+  }
+}
+/* line 206, sass/about.scss */
+body.page-template-page-about .bio .frame-2 figure img {
+  object-fit: cover;
+  width: 90%;
+  height: 67%;
+  border-radius: 50%;
+}
+/* line 213, sass/about.scss */
+body.page-template-page-about .bio .frame-2 figure:after {
+  content: '';
+  position: absolute;
+  background: url(imgs/frame-photo.png) no-repeat center;
+  background-size: contain;
+  width: 328px;
+  top: -5.5rem;
+  left: -17px;
+  height: 539px;
+}

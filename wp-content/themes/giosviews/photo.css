@@ -1,0 +1,237 @@
+/* Variables */
+@font-face {
+  font-family: 'Mirtha Display';
+  src: url(fonts/nois-mirtha-display.woff) format("woff");
+  display: swap;
+}
+@font-face {
+  font-family: 'Sebastian Bobby';
+  src: url(fonts/sebastianbobby.woff) format("woff");
+  display: swap;
+}
+/* Photo Section */
+@media all and (max-width: 781px) {
+  /* line 5, sass/photo.scss */
+  body.page-template-page-photo .category-heading {
+    flex-direction: column-reverse;
+    align-content: center;
+  }
+}
+@media all and (min-width: 1024px) and (max-width: 1920px) {
+  /* line 5, sass/photo.scss */
+  body.page-template-page-photo .category-heading {
+    width: 80%;
+    margin: auto;
+  }
+}
+@media all and (min-width: 1921px) {
+  /* line 5, sass/photo.scss */
+  body.page-template-page-photo .category-heading {
+    width: 50%;
+    margin: auto;
+  }
+}
+/* line 20, sass/photo.scss */
+body.page-template-page-photo .category-heading .text {
+  display: flex;
+  flex-basis: 30%;
+  margin: 0 6rem;
+  flex-direction: column;
+}
+@media all and (max-width: 425px) {
+  /* line 20, sass/photo.scss */
+  body.page-template-page-photo .category-heading .text {
+    max-height: 300px;
+    padding: 0rem 2rem;
+  }
+}
+@media all and (max-width: 425px) {
+  /* line 29, sass/photo.scss */
+  body.page-template-page-photo .category-heading .text h3 {
+    margin: 1rem 0;
+  }
+}
+@media all and (min-width: 426px) and (max-width: 781px) {
+  /* line 29, sass/photo.scss */
+  body.page-template-page-photo .category-heading .text h3 {
+    margin: 4rem 0 0;
+  }
+}
+/* line 39, sass/photo.scss */
+body.page-template-page-photo .category-heading .frames {
+  position: relative;
+  flex-basis: 60%;
+}
+@media all and (max-width: 425px) {
+  /* line 39, sass/photo.scss */
+  body.page-template-page-photo .category-heading .frames {
+    scale: 0.6 !important;
+    left: 1.5rem !important;
+  }
+}
+@media all and (max-width: 781px) {
+  /* line 39, sass/photo.scss */
+  body.page-template-page-photo .category-heading .frames {
+    scale: 0.8;
+    max-height: 450px;
+    top: -5rem;
+    left: 3rem;
+  }
+}
+@media all and (min-width: 782px) and (max-width: 1024px) {
+  /* line 39, sass/photo.scss */
+  body.page-template-page-photo .category-heading .frames {
+    scale: 0.8;
+    top: -4rem;
+    left: -7rem;
+  }
+}
+@media all and (min-width: 1024px) and (max-width: 1920px) {
+  /* line 39, sass/photo.scss */
+  body.page-template-page-photo .category-heading .frames {
+    scale: 0.8;
+    left: -4rem;
+  }
+}
+/* line 67, sass/photo.scss */
+body.page-template-page-photo .category-heading .frames .frame-1 {
+  position: relative;
+  z-index: 2;
+  width: 239px;
+  object-fit: cover;
+  height: 273px;
+}
+/* line 74, sass/photo.scss */
+body.page-template-page-photo .category-heading .frames .frame-1 img {
+  width: 239px;
+  transform: scale(0.82, 0.82) translate(0px, 50px) rotate(7deg);
+}
+/* line 79, sass/photo.scss */
+body.page-template-page-photo .category-heading .frames .frame-1::after {
+  background: url(imgs/frame-1.png) no-repeat center;
+  content: '';
+  position: absolute;
+  left: 9px;
+  top: 5px;
+  width: 390px;
+  height: 434px;
+  transform: scale(0.8, 0.8) translate(-106px, 0px) rotate(7deg);
+}
+/* line 90, sass/photo.scss */
+body.page-template-page-photo .category-heading .frames .frame-1::before {
+  background: url(imgs/tape_1.png) no-repeat center;
+  content: '';
+  position: absolute;
+  z-index: 2;
+  left: 8rem;
+  top: 1rem;
+  width: 166px;
+  height: 137px;
+  transform: scale(0.7, 0.7) translate(0px, 0px) rotate(26deg);
+}
+/* line 103, sass/photo.scss */
+body.page-template-page-photo .category-heading .frames .frame-2 {
+  left: 18rem;
+  top: 3rem;
+  height: 479px;
+  width: 363px;
+  position: absolute;
+  z-index: 0;
+}
+@media all and (max-width: 425px) {
+  /* line 103, sass/photo.scss */
+  body.page-template-page-photo .category-heading .frames .frame-2 {
+    left: 10rem !important;
+    scale: 0.9;
+  }
+}
+@media all and (min-width: 426px) and (max-width: 575px) {
+  /* line 103, sass/photo.scss */
+  body.page-template-page-photo .category-heading .frames .frame-2 {
+    left: 11rem;
+    scale: 0.7;
+  }
+}
+@media all and (min-width: 576px) and (max-width: 781px) {
+  /* line 103, sass/photo.scss */
+  body.page-template-page-photo .category-heading .frames .frame-2 {
+    left: 14rem;
+  }
+}
+/* line 123, sass/photo.scss */
+body.page-template-page-photo .category-heading .frames .frame-2 img {
+  overflow: hidden;
+  border-top-right-radius: 45%;
+  width: 363px;
+  object-fit: cover;
+  height: 479px;
+  border-top-left-radius: 45%;
+}
+/* line 133, sass/photo.scss */
+body.page-template-page-photo .category-heading .frames .frame-2::after {
+  position: absolute;
+  background: url(imgs/photos-gios-views.png) no-repeat center;
+  content: '';
+  width: 228px;
+  height: 176px;
+  z-index: initial;
+  overflow: hidden;
+  z-index: -1;
+  right: -3px;
+  background-size: contain;
+  bottom: -8.5rem;
+}
+@media all and (max-width: 425px) {
+  /* line 133, sass/photo.scss */
+  body.page-template-page-photo .category-heading .frames .frame-2::after {
+    right: 17rem;
+    bottom: -20.5rem;
+    scale: 1.5;
+  }
+}
+/* line 153, sass/photo.scss */
+body.page-template-page-photo .category-heading .frames .frame-3 {
+  z-index: 1;
+  width: 518px;
+  height: 392px;
+  top: 2rem;
+  left: -6rem;
+  overflow: hidden;
+  position: relative;
+}
+@media all and (max-width: 425px) {
+  /* line 153, sass/photo.scss */
+  body.page-template-page-photo .category-heading .frames .frame-3 {
+    top: 2rem;
+    scale: 0.7;
+  }
+}
+@media all and (min-width: 426px) and (max-width: 1200px) {
+  /* line 153, sass/photo.scss */
+  body.page-template-page-photo .category-heading .frames .frame-3 {
+    scale: 0.8;
+  }
+}
+/* line 169, sass/photo.scss */
+body.page-template-page-photo .category-heading .frames .frame-3 img {
+  width: 100%;
+  height: 392px;
+  object-fit: cover;
+  background-position: top center;
+  filter: brightness(0.8);
+  border: 1px solid #A87853;
+  padding: 0.4rem;
+}
+/* line 181, sass/photo.scss */
+body.page-template-page-photo .category-heading .frames::before {
+  background: url(imgs/stars.png) no-repeat center;
+  content: '';
+  background-size: contain;
+  position: absolute;
+  z-index: 2;
+  top: 1rem;
+  left: -7rem;
+  width: 200px;
+  height: 200px;
+  transform: scale(1, -1) translate(0px, 0px) rotate(0deg);
+}

@@ -1,0 +1,25 @@
+/*
+Theme Name: Gio's Views
+Theme URI: https://www.giosviews.com
+Author: Miss Marketing
+Author URI: https://www.missmarketing.es
+Description: Theme Wordpress para Gio's Views
+Tags: seo, personal-website
+Version: 2023
+Requires at least: 5.2
+Tested up to: 6.1
+Requires PHP: 7.0
+License: GNU General Public License v3 or Later
+License URI: https://www.gnu.org/licenses/gpl.html
+Text Domain: giosviews
+
+Gio's Views WordPress Theme © 2011-2023 MissMarketing
+Gio's Views is distributed under the terms of the GNU GPL
+*/
+@import "base";
+@import "header";
+@import "home";
+@import "footer";
+@import "about";
+@import "photo";
+@import "price-list";

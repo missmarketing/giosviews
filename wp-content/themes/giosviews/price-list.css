@@ -1,0 +1,283 @@
+/* Variables */
+@font-face {
+  font-family: 'Mirtha Display';
+  src: url(fonts/nois-mirtha-display.woff) format("woff");
+  display: swap;
+}
+@font-face {
+  font-family: 'Sebastian Bobby';
+  src: url(fonts/sebastianbobby.woff) format("woff");
+  display: swap;
+}
+/* Price */
+/* line 5, sass/price-list.scss */
+body.page-template-page-price #content {
+  padding-top: 5rem;
+  width: 90%;
+  margin: auto;
+}
+@media all and (min-width: 1920px) {
+  /* line 5, sass/price-list.scss */
+  body.page-template-page-price #content {
+    width: 60%;
+  }
+}
+/* line 14, sass/price-list.scss */
+body.page-template-page-price #content .price-heading {
+  position: relative;
+}
+/* line 16, sass/price-list.scss */
+body.page-template-page-price #content .price-heading .text-ornament {
+  position: absolute;
+  width: 21%;
+  top: -5rem;
+}
+/* line 20, sass/price-list.scss */
+body.page-template-page-price #content .price-heading .text-ornament p {
+  font-size: 45px;
+  line-height: 2rem;
+  color: rgba(134, 96, 66, 0.25);
+  font-family: "Sebastian Bobby";
+}
+@media all and (max-width: 575px) {
+  /* line 16, sass/price-list.scss */
+  body.page-template-page-price #content .price-heading .text-ornament {
+    width: 50%;
+  }
+}
+@media all and (min-width: 1920px) {
+  /* line 16, sass/price-list.scss */
+  body.page-template-page-price #content .price-heading .text-ornament {
+    scale: 1.5;
+    width: 12%;
+  }
+}
+/* line 35, sass/price-list.scss */
+body.page-template-page-price #content .price-heading .images-pricing {
+  width: 100%;
+  position: absolute;
+  gap: 0;
+  top: 0;
+  right: 0;
+  transform: translate(65%, -8rem);
+}
+@media all and (max-width: 425px) {
+  /* line 35, sass/price-list.scss */
+  body.page-template-page-price #content .price-heading .images-pricing {
+    scale: 0.7 !important;
+    transform: translate(-3rem, -18rem) !important;
+  }
+}
+@media all and (max-width: 575px) {
+  /* line 35, sass/price-list.scss */
+  body.page-template-page-price #content .price-heading .images-pricing {
+    scale: 0.8;
+    transform: translate(6rem, -18rem);
+  }
+}
+@media all and (min-width: 576px) and (max-width: 781px) {
+  /* line 35, sass/price-list.scss */
+  body.page-template-page-price #content .price-heading .images-pricing {
+    transform: translate(18rem, -19rem);
+    scale: 0.7;
+  }
+}
+@media all and (min-width: 1420px) {
+  /* line 35, sass/price-list.scss */
+  body.page-template-page-price #content .price-heading .images-pricing {
+    transform: translate(75%, -8rem);
+  }
+}
+/* line 63, sass/price-list.scss */
+body.page-template-page-price #content .price-heading .images-pricing .frame-2 .wp-block-group__inner-container {
+  position: relative;
+  top: -3rem;
+  right: -5rem;
+  z-index: 1;
+}
+/* line 70, sass/price-list.scss */
+body.page-template-page-price #content .price-heading .images-pricing .frame-2 figure {
+  position: relative;
+  scale: 0.5;
+  width: 320px;
+}
+/* line 75, sass/price-list.scss */
+body.page-template-page-price #content .price-heading .images-pricing .frame-2 figure img {
+  filter: brightness(0.8);
+  width: 320px;
+  left: 0;
+  margin: 0.5rem;
+  height: 375px;
+  object-fit: cover;
+  transform: scale(1, 1) translate(0px, 0px) rotate(9deg);
+}
+/* line 85, sass/price-list.scss */
+body.page-template-page-price #content .price-heading .images-pricing .frame-2 figure::after {
+  background: url(imgs/frame-2.png) no-repeat center;
+  content: '';
+  position: absolute;
+  background-size: 100% 100%;
+  left: 0;
+  top: 0;
+  width: 339px;
+  height: 392px;
+  transform: scale(1, 1) translate(0px, 0px) rotate(9deg);
+}
+/* line 100, sass/price-list.scss */
+body.page-template-page-price #content .price-heading .images-pricing .frame-1 .wp-block-group__inner-container {
+  position: relative;
+  top: -15rem;
+  right: -13rem;
+}
+/* line 106, sass/price-list.scss */
+body.page-template-page-price #content .price-heading .images-pricing .frame-1 figure {
+  position: relative;
+  width: 239px;
+  object-fit: cover;
+  scale: 0.9;
+  height: 273px;
+}
+/* line 113, sass/price-list.scss */
+body.page-template-page-price #content .price-heading .images-pricing .frame-1 figure img {
+  width: 239px;
+  transform: scale(0.82, 0.82) translate(0px, 50px) rotate(-7deg);
+}
+/* line 118, sass/price-list.scss */
+body.page-template-page-price #content .price-heading .images-pricing .frame-1 figure::after {
+  background: url(imgs/frame-1.png) no-repeat center;
+  content: '';
+  position: absolute;
+  left: 9px;
+  top: 5px;
+  width: 390px;
+  height: 434px;
+  transform: scale(0.8, 0.8) translate(-106px, 0px) rotate(-7deg);
+}
+/* line 129, sass/price-list.scss */
+body.page-template-page-price #content .price-heading .images-pricing .frame-1 figure::before {
+  background: url(imgs/tape_1.png) no-repeat center;
+  content: '';
+  position: absolute;
+  z-index: 2;
+  left: 8rem;
+  top: 1rem;
+  width: 166px;
+  height: 137px;
+  transform: scale(0.7, 0.7) translate(-30px, -20px) rotate(26deg);
+}
+/* line 145, sass/price-list.scss */
+body.page-template-page-price #content .price-heading h3 {
+  margin: 0;
+  padding: 3rem 0;
+  font-size: 82px;
+}
+@media all and (max-width: 575px) {
+  /* line 145, sass/price-list.scss */
+  body.page-template-page-price #content .price-heading h3 {
+    padding-top: 18rem;
+  }
+}
+/* line 155, sass/price-list.scss */
+body.page-template-page-price #content .table-pricing {
+  width: 70%;
+  margin: auto;
+  position: relative;
+}
+/* line 162, sass/price-list.scss */
+body.page-template-page-price #content .table-pricing .pricing-top h3,
+body.page-template-page-price #content .table-pricing .pricing-bottom h3 {
+  text-align: center;
+  color: #C1973B;
+  font-size: 52px;
+  padding: 0;
+}
+/* line 169, sass/price-list.scss */
+body.page-template-page-price #content .table-pricing .pricing-top h4,
+body.page-template-page-price #content .table-pricing .pricing-bottom h4 {
+  text-align: center;
+  font-size: 22px;
+  text-transform: none;
+}
+/* line 175, sass/price-list.scss */
+body.page-template-page-price #content .table-pricing .pricing-top p,
+body.page-template-page-price #content .table-pricing .pricing-bottom p {
+  text-align: center;
+  font-size: 15px;
+}
+/* line 179, sass/price-list.scss */
+body.page-template-page-price #content .table-pricing .pricing-top .text-mobile,
+body.page-template-page-price #content .table-pricing .pricing-bottom .text-mobile {
+  display: none;
+}
+@media all and (max-width: 781px) {
+  /* line 179, sass/price-list.scss */
+  body.page-template-page-price #content .table-pricing .pricing-top .text-mobile,
+  body.page-template-page-price #content .table-pricing .pricing-bottom .text-mobile {
+    display: block;
+    color: #865042;
+    font-size: 72px;
+    margin: 0;
+  }
+}
+/* line 190, sass/price-list.scss */
+body.page-template-page-price #content .table-pricing .pricing-top {
+  margin-bottom: 10rem;
+}
+/* line 193, sass/price-list.scss */
+body.page-template-page-price #content .table-pricing .pricing-top .print-size {
+  position: relative;
+  border-top: 1px solid rgba(134, 96, 66, 0.25);
+  border-bottom: 1px solid rgba(134, 96, 66, 0.25);
+  margin: 2rem 0;
+  padding: 2rem 0;
+}
+/* line 200, sass/price-list.scss */
+body.page-template-page-price #content .table-pricing .pricing-top .print-size::after {
+  content: 'Print Size';
+  position: absolute;
+  font-family: "Mirtha Display";
+  font-size: 82px;
+  left: -2rem;
+  bottom: 0;
+  top: 0;
+  rotate: -90deg;
+  color: rgba(134, 96, 66, 0.25);
+}
+/* line 213, sass/price-list.scss */
+body.page-template-page-price #content .table-pricing .pricing-top .additional {
+  margin: 0;
+}
+/* line 218, sass/price-list.scss */
+body.page-template-page-price #content .table-pricing .pricing-bottom {
+  margin-bottom: 10rem;
+}
+/* line 221, sass/price-list.scss */
+body.page-template-page-price #content .table-pricing .pricing-bottom .event {
+  position: relative;
+  border-top: 1px solid rgba(134, 96, 66, 0.25);
+  margin-top: 2rem;
+  padding-top: 2rem;
+}
+/* line 227, sass/price-list.scss */
+body.page-template-page-price #content .table-pricing .pricing-bottom .event::after {
+  content: 'Event';
+  position: absolute;
+  font-family: "Mirtha Display";
+  font-size: 82px;
+  left: -2rem;
+  bottom: 0;
+  top: 0;
+  rotate: -90deg;
+  color: rgba(134, 96, 66, 0.25);
+}
+/* line 241, sass/price-list.scss */
+body.page-template-page-price #content .table-pricing::after {
+  content: '';
+  background: url(imgs/stars.png) no-repeat center;
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  left: -11rem;
+  background-size: contain;
+  top: 3rem;
+}
