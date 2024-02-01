@@ -1,0 +1,6 @@
+/* Variables */
+@font-face {
+  font-family: 'Brandon';
+  src: url("/wp-content/themes/giostheme/fonts/brandon_grotesque_regular.woff") format("woff");
+  display: swap;
+}

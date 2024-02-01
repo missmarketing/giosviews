@@ -1,0 +1,66 @@
+/* line 1, sass/contact.scss */
+body.page-template-page-contact {
+  /* Estilo general para el banner */
+}
+/* line 4, sass/contact.scss */
+body.page-template-page-contact .banner {
+  width: 100%;
+  overflow: hidden;
+  height: 700px;
+  background-size: cover;
+  background-position: center center;
+}
+/* line 11, sass/contact.scss */
+body.page-template-page-contact .banner img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center 40%;
+}
+@media (min-width: 2000px) {
+  /* line 11, sass/contact.scss */
+  body.page-template-page-contact .banner img {
+    object-position: center 45%;
+  }
+}
+@media (max-width: 575px) {
+  /* line 4, sass/contact.scss */
+  body.page-template-page-contact .banner {
+    height: 350px !important;
+  }
+}
+@media screen and (max-width: 1024px) {
+  /* line 4, sass/contact.scss */
+  body.page-template-page-contact .banner {
+    height: 450px;
+  }
+}
+/* line 31, sass/contact.scss */
+body.page-template-page-contact .contact-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 50%;
+  margin: auto;
+  padding: 2rem;
+}
+/* line 41, sass/contact.scss */
+body.page-template-page-contact .contact-content p {
+  margin: 0 auto;
+}
+@media (max-width: 575px) {
+  /* line 31, sass/contact.scss */
+  body.page-template-page-contact .contact-content {
+    width: 90%;
+    margin: auto;
+    padding: 0 0 2rem;
+  }
+}
+@media (min-width: 2000px) {
+  /* line 31, sass/contact.scss */
+  body.page-template-page-contact .contact-content {
+    padding: 3rem;
+  }
+}

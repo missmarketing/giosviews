@@ -1,0 +1,56 @@
+body.page-template-page-collaborations {
+
+    /* Estilo general para el banner */
+    .banner {
+        width: 100%;
+        overflow: hidden;
+        height: 700px;
+        background-size: cover;
+        background-position: center center;
+
+        img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            object-position: center 40%;
+
+            @media (min-width:2000px) {
+                object-position: center 45%;
+            }
+        }
+
+        @media (max-width:575px) {
+            height: 350px !important;
+        }
+
+        @media screen and (max-width: 1024px) {
+            height: 450px;
+        }
+    }
+
+    .collab-content {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        width: 50%;
+        margin: 2rem auto;
+        padding: 3rem 2rem;
+
+        p {
+            margin: 0 auto;
+        }
+
+        @media (max-width:575px) {
+            width: 90%;
+            margin: auto;
+            padding: 0 0 2rem;
+        }
+
+        @media (min-width:2000px) {
+            padding: 5rem;
+            width: 30%;
+        }
+    }
+}
