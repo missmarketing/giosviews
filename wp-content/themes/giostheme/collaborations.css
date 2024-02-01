@@ -1,0 +1,67 @@
+/* line 1, sass/collaborations.scss */
+body.page-template-page-collaborations {
+  /* Estilo general para el banner */
+}
+/* line 4, sass/collaborations.scss */
+body.page-template-page-collaborations .banner {
+  width: 100%;
+  overflow: hidden;
+  height: 700px;
+  background-size: cover;
+  background-position: center center;
+}
+/* line 11, sass/collaborations.scss */
+body.page-template-page-collaborations .banner img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center 40%;
+}
+@media (min-width: 2000px) {
+  /* line 11, sass/collaborations.scss */
+  body.page-template-page-collaborations .banner img {
+    object-position: center 45%;
+  }
+}
+@media (max-width: 575px) {
+  /* line 4, sass/collaborations.scss */
+  body.page-template-page-collaborations .banner {
+    height: 350px !important;
+  }
+}
+@media screen and (max-width: 1024px) {
+  /* line 4, sass/collaborations.scss */
+  body.page-template-page-collaborations .banner {
+    height: 450px;
+  }
+}
+/* line 31, sass/collaborations.scss */
+body.page-template-page-collaborations .collab-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 50%;
+  margin: 2rem auto;
+  padding: 3rem 2rem;
+}
+/* line 41, sass/collaborations.scss */
+body.page-template-page-collaborations .collab-content p {
+  margin: 0 auto;
+}
+@media (max-width: 575px) {
+  /* line 31, sass/collaborations.scss */
+  body.page-template-page-collaborations .collab-content {
+    width: 90%;
+    margin: auto;
+    padding: 0 0 2rem;
+  }
+}
+@media (min-width: 2000px) {
+  /* line 31, sass/collaborations.scss */
+  body.page-template-page-collaborations .collab-content {
+    padding: 5rem;
+    width: 30%;
+  }
+}

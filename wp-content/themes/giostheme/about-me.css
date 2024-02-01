@@ -1,0 +1,66 @@
+/* line 1, sass/about-me.scss */
+body.page-template-page-about-me {
+  /* Estilo general para el banner */
+}
+/* line 4, sass/about-me.scss */
+body.page-template-page-about-me .banner {
+  width: 100%;
+  overflow: hidden;
+  height: 700px;
+  background-size: cover;
+  background-position: center center;
+}
+/* line 11, sass/about-me.scss */
+body.page-template-page-about-me .banner img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center 23%;
+}
+@media (max-width: 575px) {
+  /* line 4, sass/about-me.scss */
+  body.page-template-page-about-me .banner {
+    height: 350px !important;
+  }
+}
+@media screen and (max-width: 1024px) {
+  /* line 4, sass/about-me.scss */
+  body.page-template-page-about-me .banner {
+    height: 450px;
+  }
+}
+/* line 29, sass/about-me.scss */
+body.page-template-page-about-me .about-me-content {
+  display: flex;
+  padding: 1rem 0;
+  width: 90%;
+  margin: auto;
+}
+@media (max-width: 767px) {
+  /* line 29, sass/about-me.scss */
+  body.page-template-page-about-me .about-me-content {
+    flex-direction: column;
+  }
+}
+@media (min-width: 768px) {
+  /* line 39, sass/about-me.scss */
+  body.page-template-page-about-me .about-me-content .column {
+    width: calc((100% - 25%) / 1);
+    padding: 1rem;
+  }
+}
+@media (max-width: 575px) {
+  /* line 29, sass/about-me.scss */
+  body.page-template-page-about-me .about-me-content {
+    width: 90%;
+    margin: auto;
+  }
+}
+@media (min-width: 2000px) {
+  /* line 29, sass/about-me.scss */
+  body.page-template-page-about-me .about-me-content {
+    width: 70%;
+    margin: auto;
+    padding: 3rem;
+  }
+}

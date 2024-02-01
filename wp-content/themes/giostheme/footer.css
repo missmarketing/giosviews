@@ -1,0 +1,38 @@
+/* Variables */
+@font-face {
+  font-family: 'Brandon';
+  src: url("/wp-content/themes/giostheme/fonts/brandon_grotesque_regular.woff") format("woff");
+  display: swap;
+}
+/* line 2, sass/footer.scss */
+#footer {
+  padding: 5rem 0 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #858585;
+  font-family: "Brandon";
+  margin-top: 3rem;
+}
+/* line 10, sass/footer.scss */
+#footer #copyright {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+/* line 15, sass/footer.scss */
+#footer #copyright p {
+  margin: 0;
+  color: #858585;
+  font-size: 16px;
+}
+/* line 21, sass/footer.scss */
+#footer svg {
+  width: 20px;
+  height: 20px;
+}
+/* line 25, sass/footer.scss */
+#footer path {
+  fill: #858585;
+}
